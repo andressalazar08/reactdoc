@@ -2,14 +2,16 @@ import React from 'react';
 import Snippet from '../components/Snippet';
 import Highlight from '../components/Highlight';
 
+const texto1 = `Las aplicaciones de React están basadas en componentes.
+
+Por definición: un componente es una pieza de la interfaz de usuario que puede ser reutilizada en diferentes
+partes de la aplicación. Tiene su propia lógica y apariencia.`;
+
 function CrearComponentes() {
 
   const codevacio= `'`;
 
-  const texto1 = `Las aplicaciones de React están basadas en componentes.
 
-Por definición: un componente es una pieza de la interfaz de usuario que puede ser reutilizada en diferentes
-partes de la aplicación. Tiene su propia lógica y apariencia.`;
 
   const texto2 = `Los componentes de React son funciones de JavaScript que devuelven markup (marcado):`;
 

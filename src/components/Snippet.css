@@ -6,3 +6,13 @@
 
   }
 
+  .snippet-container {
+    overflow-x: auto; /* Permite el desplazamiento horizontal si el contenido es muy grande */
+    max-width: 100%; /* Asegura que el contenedor no exceda el ancho disponible */
+    margin-left: 10px;
+  }
+  
+  .snippet-container pre {
+    white-space: pre-wrap; /* Permite que el texto se ajuste dentro del contenedor */
+    word-wrap: break-word; /* Permite que el texto se ajuste dentro del contenedor */
+  }

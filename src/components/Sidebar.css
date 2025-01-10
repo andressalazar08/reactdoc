@@ -4,6 +4,7 @@
     padding: 10px;
     overflow-y: auto; /* Añade un scroll vertical si el contenido excede la altura */
     height: 100vh; /* Asegura que la sidebar ocupe toda la altura de la ventana */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto */
 }
 
 .sidebar a {
@@ -11,6 +12,8 @@
     padding: 10px;
     text-decoration: none;
     color: #333;
+    word-wrap: break-word; /* Permite que el texto se ajuste dentro del contenedor */
+    overflow-wrap: break-word; /* Permite que el texto se ajuste dentro del contenedor */
 }
 
 .accordion {

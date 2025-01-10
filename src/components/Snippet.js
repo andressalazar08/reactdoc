@@ -5,9 +5,11 @@ import './Snippet.css';
 
 function Snippet({ code }) {
   return (
-    <SyntaxHighlighter language="javascript" style={atomDark} className="snippet">
+    <div className="snippet-container">
+    <SyntaxHighlighter language="javascript" style={atomDark}>
       {code}
     </SyntaxHighlighter>
+  </div>
   );
 }
 

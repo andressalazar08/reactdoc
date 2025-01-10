@@ -20,6 +20,7 @@ function Sidebar() {
                 <Link to="/">Home</Link>
                 <Link to="/crearcomponentes">Crear Componentes</Link>
                 <Link to="/usoJsx">Uso de Jsx</Link>      
+                <Link to="/introRenderizado">Introducción al renderizado</Link>
             </div>
            
         </div>

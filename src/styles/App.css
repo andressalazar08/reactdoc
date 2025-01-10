@@ -1,24 +1,37 @@
 .d-flex {
-    display: flex;
-  }
-  
-  
-  .content {
-    flex-grow: 1;
-    padding: 20px;
-  }
+  display: flex;
+}
 
-  body {
-    font-family: 'Sora', sans-serif;
+.sidebar {
+  flex: 0 0 350px; /* Ancho fijo para la sidebar */
+  background-color: #f8f9fa;
+  padding: 10px;
+  overflow-y: auto; /* Añade un scroll vertical si el contenido excede la altura */
+  height: 100vh; /* Asegura que la sidebar ocupe toda la altura de la ventana */
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto */
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+body {
+  font-family: 'Sora', sans-serif;
 }
 
 /* Aplica la fuente a otros elementos si es necesario */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Sora', sans-serif;
+  font-family: 'Sora', sans-serif;
 }
-p{
+
+p {
   font-family: 'Sora', sans-serif;
   font-size: larger;
   line-height: 1.8;
-
+  margin-left: 10px;
+  margin-right: 10px; /* Asegura que el texto no se desborde en la sidebar */
+  word-wrap: break-word; /* Permite que el texto se ajuste dentro del contenedor */
+  overflow-wrap: break-word; /* Permite que el texto se ajuste dentro del contenedor */
 }
