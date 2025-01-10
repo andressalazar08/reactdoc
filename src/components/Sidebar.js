@@ -14,13 +14,14 @@ function Sidebar() {
       <div className="accordion">
         <div className={`accordion-item ${activeIndex === 0 ? 'active' : ''}`}>
           <div className="accordion-header" onClick={() => toggleAccordion(0)}>
-            Section 1
+            Introducción
           </div>
-          <div className="accordion-content">
-            <Link to="/">Home</Link>
-            <Link to="/page1">Page 1</Link>
-            <Link to="/page2">Page 2</Link>
-          </div>
+            <div className="accordion-content">
+                <Link to="/">Home</Link>
+                <Link to="/crearcomponentes">Crear Componentes</Link>
+                <Link to="/page2">Page 2</Link>      
+            </div>
+           
         </div>
         <div className={`accordion-item ${activeIndex === 1 ? 'active' : ''}`}>
           <div className="accordion-header" onClick={() => toggleAccordion(1)}>

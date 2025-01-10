@@ -7,3 +7,18 @@
     flex-grow: 1;
     padding: 20px;
   }
+
+  body {
+    font-family: 'Sora', sans-serif;
+}
+
+/* Aplica la fuente a otros elementos si es necesario */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sora', sans-serif;
+}
+p{
+  font-family: 'Sora', sans-serif;
+  font-size: larger;
+  line-height: 1.8;
+
+}
