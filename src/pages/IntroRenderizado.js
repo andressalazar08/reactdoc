@@ -66,7 +66,7 @@ function IntroRenderizado() {
         </>
     )`}/>
         
-        <p>Cuando no se tenga uun else explicito se puede usar la sintaxis lógica &&</p>
+        <p>Cuando no se tenga un else explicito se puede usar la sintaxis lógica &&</p>
 
         <Snippet code={`function ComponenteRenderizador(){
     return(
@@ -82,7 +82,7 @@ function IntroRenderizado() {
     que renderiza la lista.
 Ejemplo de mapeo directo en el renderizado:
     Aquí se tiene una lista de productos, cada elemento es un objeto.
-    el componente ProductList utiliza un <highlight>map</highlight>
+    el componente ProductList utiliza un <Highlight>map </Highlight>
     para recorrer los elementos de la lista
 </p>
       <Snippet code={`const products = [
@@ -102,6 +102,26 @@ function ProductList() {
     </ul>
   );
 }`} />
+
+<p>En el anterior snippet se usó un atributo llamado <Highlight>key</Highlight> , este indica que cada elemento a mapear debe ser identificado con una key.
+<br/>
+Podemos usar el <b>index</b> que viene en el <b>map</b> por defecto para identificar cada "li".
+En el siguiente snippet el atributo <Highlight>key</Highlight> usa <Highlight >index </Highlight>para identificar cada elemento
+</p>
+
+<Snippet code={`function ProductList() {
+    return (
+      <ul>
+        {products.map((product, index) => (
+          <li key={index}>
+            {product.title}
+          </li>
+        ))}
+      </ul>
+    );
+}`}/>
+
+
         </div>
             
         )
