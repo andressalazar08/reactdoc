@@ -7,7 +7,7 @@ import CrearComponentes from './pages/CrearComponentes';
 import UsoJsx from './pages/UsoJsx';
 import Sidebar from './components/Sidebar';
 import IntroRenderizado from './pages/IntroRenderizado';
-
+import IntroEventos from './pages/IntroEventos';
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
             <Route path="/crearComponentes" element={<CrearComponentes />} />
             <Route path="/usoJsx" element={<UsoJsx />} />
             <Route path="/introrenderizado" element={<IntroRenderizado />} />
+            <Route path="/introeventos" element={<IntroEventos />} />
             {/* Add more routes as needed */}
           </Routes>
         </div>
