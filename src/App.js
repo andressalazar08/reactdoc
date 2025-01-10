@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './styles/App.css';
 import Home from './pages/Home';
 import CrearComponentes from './pages/CrearComponentes';
-import Page2 from './pages/Page2';
+import UsoJsx from './pages/UsoJsx';
 import Sidebar from './components/Sidebar';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/crearComponentes" element={<CrearComponentes />} />
-            <Route path="/page2" element={<Page2 />} />
+            <Route path="/usoJsx" element={<UsoJsx />} />
             {/* Add more routes as needed */}
           </Routes>
         </div>

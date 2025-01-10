@@ -19,7 +19,7 @@ function Sidebar() {
             <div className="accordion-content">
                 <Link to="/">Home</Link>
                 <Link to="/crearcomponentes">Crear Componentes</Link>
-                <Link to="/page2">Page 2</Link>      
+                <Link to="/usoJsx">Uso de Jsx</Link>      
             </div>
            
         </div>
