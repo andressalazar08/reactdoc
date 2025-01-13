@@ -43,6 +43,16 @@ function IntroEventos(){
             <Snippet code={code1} />   
             <NoteComponent texto="¡Nota que onClick={handleClick} no tiene paréntesis al final!
              No llames a la función controladora de evento: solamente necesitas pasarla hacia abajo. React llamará a tu controlador de evento cuando el usuario haga clic en el botón."/>
+
+             <h3>Características principales de una función controladora:</h3>
+             <p>
+             
+<b>Especifica la lógica de respuesta a un evento:</b> Permite realizar acciones cuando un usuario interactúa con el componente, como hacer clic en un botón, ingresar texto en un campo, o enviar un formulario.
+<br/><br/>
+<b>Asociación a un evento:</b> Se pasa como valor a un manejador de eventos (por ejemplo, onClick, onChange).
+<br/><br/>
+<b>Acceso al estado y propiedades del componente:</b> Si la función está dentro de un componente funcional con hooks o es un método de una clase, puede acceder al estado (state) y propiedades (props) para realizar cambios o usar la información necesaria.
+             </p>
         </>
     )
 };
