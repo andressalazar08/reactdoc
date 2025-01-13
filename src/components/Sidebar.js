@@ -22,6 +22,7 @@ function Sidebar() {
                 <Link to="/usoJsx">Uso de Jsx</Link>      
                 <Link to="/introRenderizado">Introducción al renderizado</Link>
                 <Link to="/introEventos">Manejo básico de Eventos</Link>
+                <Link to="/introEstado">Introducción al Estado</Link>
             </div>
            
         </div>

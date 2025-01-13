@@ -8,6 +8,7 @@ import UsoJsx from './pages/UsoJsx';
 import Sidebar from './components/Sidebar';
 import IntroRenderizado from './pages/IntroRenderizado';
 import IntroEventos from './pages/IntroEventos';
+import IntroduccionEstado from './pages/IntroduccionEstado';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/usoJsx" element={<UsoJsx />} />
             <Route path="/introrenderizado" element={<IntroRenderizado />} />
             <Route path="/introeventos" element={<IntroEventos />} />
+            <Route path="/introestado" element={<IntroduccionEstado />} />
             {/* Add more routes as needed */}
           </Routes>
         </div>

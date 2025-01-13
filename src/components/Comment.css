@@ -1,0 +1,9 @@
+.comment {
+    background-color: #88eae7; /* Color de fondo tipo sticknote */
+    border: 1px solid #6dd4f0; /* Borde similar a un sticknote */
+    border-radius: 8px; /* Borde redondeado */
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */
+    font-family: 'Sora', sans-serif; /* Asegura que use la misma fuente que el resto de la aplicación */
+}
